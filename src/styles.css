@@ -6,15 +6,36 @@
 body {
   background: #eee;
   display: grid;
-  place-content: center;
+  justify-content: center;
   min-height: 100vh;
   margin: 0;
 }
 
 .container {
+  top: 0;
+  display: grid;
   border: 1px solid #fff;
   color: #fff;
-  background: #CA4BEC;
+  background: #BD92ED;
+  width: 40vw;
   padding: 1rem;
   border-radius: 4px;
 }
+.container > h1 {
+  text-align: center;
+}
+
+.container > textarea {
+  resize: none
+}
+
+.container > button {
+  width: 20%;
+}
+
+.container > ul > li {
+  color: #4D2758;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
